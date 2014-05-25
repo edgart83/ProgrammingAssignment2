@@ -26,7 +26,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
-		m <- x$getinvmtx()
+	m <- x$getinvmtx()
         if(!is.null(m)) {						## if place holder not m is empty 
 									## then solution exists
                 message("getting cached data")

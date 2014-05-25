@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
-## This function takes a matrix as an input 
+## This function takes a matrix preprocessed by makeCacheMatrix as an input 
 ## and returns the inverse matrix. If the 
 ## solution previously exist it is returned and if not 
 ## it is computed, stored and returned 
